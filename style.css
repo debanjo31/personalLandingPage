@@ -156,7 +156,8 @@ footer{
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(255, 255, 255, 0.493);
+    background-color: rgba(0, 0, 36);
+    border: 1px solid white;
     -webkit-transition: .4s;
     transition: .4s;
   }
@@ -171,10 +172,12 @@ footer{
     background-color: white;
     -webkit-transition: .4s;
     transition: .4s;
+    top: 1px;
+    
   }
   
   input:checked + .slider {
-    background-color: #262829;
+    background-color: rgb(0, 0, 0);
   }
   
   input:focus + .slider {
