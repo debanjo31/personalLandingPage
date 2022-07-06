@@ -217,3 +217,18 @@ footer{
     
        
 }
+
+.container small a{
+    background-color: var(--white);
+    display: inline-block;
+    color: var(--black);
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: var(--animate_effect);
+    box-shadow: 0 2px 4px 0 grey, 0 3px 10px 0 grey ;
+}
+
+.container small a:hover{
+    transform: scale(1.05);
+}
